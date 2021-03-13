@@ -8,6 +8,7 @@ function HeroSection() {
     <div className='hero-container'>
       <video src={process.env.PUBLIC_URL +'/videos/video-1.mp4'} autoPlay loop muted />
       <h1>ADVENTURE AWAITS</h1>
+      <h2>Develop Mode</h2>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
         <Button
